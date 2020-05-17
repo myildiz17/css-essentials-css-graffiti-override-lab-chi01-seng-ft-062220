@@ -25,7 +25,7 @@ RSpec.describe 'css/paint.css' do
   end
 
   it 'must be unchanged' do
-    size = File.size("css/paint.css")
+    size = File.size("git checkout css/paint.css")
     expect(size).to eq(1411), "You cannot alter paint.css at all! To reset it use \"git checkout css/paint.css\""
   end
 end
